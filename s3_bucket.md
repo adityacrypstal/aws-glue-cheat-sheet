@@ -5,7 +5,7 @@
 Read Data
 -
 In AWS Glue, we can read files from S3 buckets.
-
+___
 `
 dyf = glueContext.create_dynamic_frame.from_options("s3", {'paths': ["s3://s3path/"], 'recurse':True, 'groupFiles': 'inPartition', 'groupSize': '1048576'}, format="json")
 `
@@ -24,8 +24,8 @@ Converted Dynamic Frame to Pyspark Dataframe.
 | Tom | 22 |
 | Tiny | 25 |
 
-Options
--
+###Options
+
 
 | Key | Description|
 |:----|:----------|
@@ -33,9 +33,8 @@ Options
 | groupFiles | To group files .|
 | groupSize | Define grouping size (in bytes).|
 | recurse | To recursively read all files in subdirectory (boolean).|
-
-Write Data
--
+___
+##Write Data
 
 We can directly convert **data frame** directly to csv and save in s3 bucket.
 
