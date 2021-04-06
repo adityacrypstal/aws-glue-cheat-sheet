@@ -1,5 +1,7 @@
 ## AWS S3 Bucket Connections
 
+> AWS Glue supports JSON, CSV, Parquet, ORC, Avro, and Grok for read and write to S3.
+
 ### Read Data
 
 In AWS Glue, we can read files from S3 buckets.
@@ -35,3 +37,6 @@ Or, we can convert **dynamic frame** to csv.
            connection_type = "s3",
            connection_options = {"path": "s3://s3path/"},
            format = "csv")`
+
+
+
