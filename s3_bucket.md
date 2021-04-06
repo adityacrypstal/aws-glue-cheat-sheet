@@ -30,9 +30,9 @@ Options
 | Key | Description|
 |:----|:----------|
 | Path | S3 location.|
-| groupFiles | To group files (inPartition).|
+| groupFiles | To group files .|
 | groupSize | Define grouping size (in bytes).|
-| recurse | To recursively read all files in subdirectory (true / false).|
+| recurse | To recursively read all files in subdirectory (boolean).|
 
 Write Data
 -
