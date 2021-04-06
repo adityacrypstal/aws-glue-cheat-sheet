@@ -41,7 +41,7 @@ We can directly convert **data frame** directly to csv and save in s3 bucket.
 
 `df.repartition(1).write.option('header', 'true').csv('s3://s3path/')`
 
-Or, we can convert **dynamic frame** to csv.
+Or, we can convert **dynamic frame** to csv and save in s3 bucket.
 
 `glueContext.write_dynamic_frame.from_options(frame = dyf,
            connection_type = "s3",
