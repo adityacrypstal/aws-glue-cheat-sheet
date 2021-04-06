@@ -2,8 +2,8 @@
 
 > AWS Glue supports JSON, CSV, Parquet, ORC, Avro, and Grok for read and write to S3.
 
-### Read Data
-
+Read Data
+-
 In AWS Glue, we can read files from S3 buckets.
 
 `
@@ -24,8 +24,18 @@ Converted Dynamic Frame to Pyspark Dataframe.
 | Tom | 22 |
 | Tiny | 25 |
 
+Options
+-
 
-### Write Data
+| Key | Description|
+|:----|-----------:|
+| Path | S3 location.|
+| groupFiles | To group files (inPartition).|
+| groupSize | Define grouping size (in bytes).|
+| recurse | To recursively read all files in subdirectory (true / false).|
+
+Write Data
+-
 
 We can directly convert **data frame** directly to csv and save in s3 bucket.
 
