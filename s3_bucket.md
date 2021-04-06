@@ -24,8 +24,7 @@ Converted Dynamic Frame to Pyspark Dataframe.
 | Tom | 22 |
 | Tiny | 25 |
 
-###Options
-
+### Options
 
 | Key | Description|
 |:----|:----------|
@@ -34,7 +33,7 @@ Converted Dynamic Frame to Pyspark Dataframe.
 | groupSize | Define grouping size (in bytes).|
 | recurse | To recursively read all files in subdirectory (boolean).|
 
-##Write Data
+## Write Data
 
 We can directly convert **data frame** directly to csv and save in s3 bucket.
 
