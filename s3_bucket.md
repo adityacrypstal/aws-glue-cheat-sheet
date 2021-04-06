@@ -16,7 +16,7 @@ Converted Dynamic Frame to Pyspark Dataframe.
 
 `df.show()`
 
-| # User | # Age |
+| **User** | **Age** |
 |:----:|:---:|
 | Tim | 20 |
 | Tom | 22 |
