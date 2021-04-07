@@ -37,3 +37,42 @@ ___
 
 `NewDF = DF.filter(col('name') == 'Aditya').select(['age'])`
 ___
+
+##### 8) Get Particular Cell in data frame
+
+`NewDF = DF.filter(col('name') == 'Aditya')`
+
+With AND Operator
+
+`NewDF = DF.filter((col('name') == 'Aditya') & (col('age') == 23))`
+ 
+With OR Operator
+
+`NewDF = DF.filter((col('name') == 'Aditya') | (col('age') == 23))`
+
+___
+
+##### 9) Pick particular cell in data frame.
+
+`value = DF.collect()[Row number][Column number]`
+
+ Get first row of data frame.
+
+`FirstRow = DF.first().collect()`
+
+---
+
+##### 10) Rename / Add column in data frame.
+
+`from pyspark.sql.functions import lit, col`
+
+ Add New Column with data from Existing Column.
+
+`NewDF = NewDF.withColumn("newColumn",col("oldColumn"))`
+
+ Add New Column with data from static value.
+
+`NewDF = NewDF.withColumn("newColumn",lit("aditya))`
+
+---
+
