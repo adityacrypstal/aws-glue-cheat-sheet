@@ -76,3 +76,13 @@ ___
 
 ---
 
+##### 11) Union Two Data Frames.
+
+`requiredFields = ['name','age']`
+
+
+`NewDF = DFA.select(*requiredFields).union(DFB.select(*requiredFields))`
+
+
+
+---
