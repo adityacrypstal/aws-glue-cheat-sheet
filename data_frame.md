@@ -86,3 +86,12 @@ ___
 
 
 ---
+##### 12) Rename Column in RDD
+
+
+
+`NewDF = DFA.select(*requiredFields).withColumnRenamed("name", "first name")`
+
+
+
+---
