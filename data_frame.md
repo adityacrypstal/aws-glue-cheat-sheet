@@ -95,3 +95,14 @@ ___
 
 
 ---
+##### 13) Generate random id for dataset
+
+
+
+`from pyspark.sql.functions import rand`
+
+`NewDF = DFA.withColumn("id", rand())`
+
+
+
+---
