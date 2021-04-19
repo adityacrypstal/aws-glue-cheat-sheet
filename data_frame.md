@@ -106,3 +106,44 @@ ___
 
 
 ---
+##### 14) Types of join in pySpark
+
+Cross Jojn
+
+`df1.crossJoin(df2)`
+
+
+Inner Join
+
+`df1.join(df2, on='id', how='inner')`
+
+
+Left Join
+
+`df1.join(df2, on='id', how='left')`
+
+`df1.join(df2, on='id', how='leftouter')`
+
+Right Join
+
+`df1.join(df2, on='id', how='right')`
+
+`df1.join(df2, on='id', how='rightouter')`
+
+Full Outer Join
+
+`df1.join(df2, on='id', how='outer')`
+
+`df1.join(df2, on='id', how='full')`
+
+Left Semi Join
+
+`df1.join(df2, on='id', how='leftsemi')`
+
+Left Anti Join
+
+`df1.join(df2, on='id', how='leftanti')`
+
+
+
+---
