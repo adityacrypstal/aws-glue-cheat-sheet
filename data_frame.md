@@ -144,6 +144,8 @@ Left Anti Join
 
 `df1.join(df2, on='id', how='leftanti')`
 
+##### 15) Print Columns of RDD
 
+`print(DF.columns)`
 
----
+------
