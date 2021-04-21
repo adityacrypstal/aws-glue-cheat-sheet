@@ -149,3 +149,8 @@ Left Anti Join
 `print(DF.columns)`
 
 ------
+##### 15) Print Count of Rows
+
+`print(DF.count())`
+
+------
