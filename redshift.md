@@ -32,6 +32,7 @@
      "dbtable": "redshift table name",
      "database": "redshift database name",
      "aws_iam_role": "arn:aws:iam::account id:role/role name"
+     "preactions":"DROP TABLE master"
  }`
 
 `glueContext.write_dynamic_frame.from_jdbc_conf(
